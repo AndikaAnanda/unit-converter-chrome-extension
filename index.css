@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    min-width: 550px;
+}
+
+#header {
+    background-color: #6943FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px 0;
+}
+
+#header h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#header input {
+    width: 100px;
+    height: 100px;
+    background-color: #6943FF;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    font-size: 58px;
+    color: inherit;
+    font-weight: bold;
+    text-align: center;
+}
+
+#header input::placeholder {
+    color: inherit;
+}
+
+#header button {
+    color: #3D3D3D;
+    background-color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 0.05;
+    width: 110px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#main {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 20px;
+}
+
+#main div {
+    background-color: #273549;
+    padding: 20px;
+}
+
+#main h2 {
+    margin-top: 0;
+    color: #CCC1FF;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#main p {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 14px;
+}
